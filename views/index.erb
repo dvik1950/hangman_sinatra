@@ -1,0 +1,40 @@
+<html>
+<head>
+  <style>
+  </style>
+</head>
+<body>
+
+
+<p>
+Welcome to the Hangman game!
+</p>
+
+<p style="color:<%=color %>">
+You have <%= attempts %> attempts remaining!
+  <br/>
+<%= response %>
+</p>
+
+<form>
+  <input type='text' name='guess' maxlength="1">
+  <br/>
+  <input type='submit' name='submit '>
+</form>
+
+
+<img src=<%= image%> >
+
+<p>
+<%= guessed_letters %>
+</p>
+
+
+
+<p>
+
+  Wrong attempts: <%=wrong_guesses %>
+</p>
+
+</body>
+</html>
